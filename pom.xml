@@ -28,5 +28,6 @@
     <modules>
         <module>common</module>
         <module>core</module>
+        <module>scala</module>
     </modules>
 </project>
