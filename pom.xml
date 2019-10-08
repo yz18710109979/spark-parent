@@ -29,5 +29,6 @@
         <module>common</module>
         <module>core</module>
         <module>scala</module>
+        <module>sql</module>
     </modules>
 </project>
