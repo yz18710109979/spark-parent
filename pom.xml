@@ -8,8 +8,13 @@
     <artifactId>spark-parent</artifactId>
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
-    <!-- 版本依赖信息 -->
+
+    <properties>
+        <scala.version>2.11.8</scala.version>
+        <spark.version>2.2.2</spark.version>
+    </properties>
     <dependencyManagement>
+    <!-- 版本依赖信息 -->
         <dependencies>
             <dependency>
                 <groupId>junit</groupId>
@@ -19,8 +24,20 @@
             <!-- https://mvnrepository.com/artifact/org.apache.spark/spark-core -->
             <dependency>
                 <groupId>org.apache.spark</groupId>
-                <artifactId>spark-core_2.12</artifactId>
-                <version>2.4.0</version>
+                <artifactId>spark-core_2.11</artifactId>
+                <version>${spark.version}</version>
+            </dependency>
+            <!-- sparksql -->
+            <dependency>
+                <groupId>org.apache.spark</groupId>
+                <artifactId>spark-sql_2.11</artifactId>
+                <version>${spark.version}</version>
+            </dependency>
+            <!-- sparkstreaming -->
+            <dependency>
+                <groupId>org.apache.spark</groupId>
+                <artifactId>spark-streaming_2.11</artifactId>
+                <version>${spark.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
