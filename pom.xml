@@ -47,5 +47,6 @@
         <module>core</module>
         <module>scala</module>
         <module>sql</module>
+        <module>streaming</module>
     </modules>
 </project>
