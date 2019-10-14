@@ -48,5 +48,6 @@
         <module>scala</module>
         <module>sql</module>
         <module>streaming</module>
+        <module>kafka</module>
     </modules>
 </project>
