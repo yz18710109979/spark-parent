@@ -11,6 +11,4 @@
     <description>spark-streaming study</description>
 
     <artifactId>streaming</artifactId>
-
-
 </project>
