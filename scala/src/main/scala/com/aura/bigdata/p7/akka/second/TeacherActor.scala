@@ -1,7 +1,8 @@
 package com.aura.bigdata.p7.akka.second
 
 import akka.actor.{Actor, ActorLogging}
-import com.desheng.bigdata.p7.akka.{Request, Response}
+import com.aura.bigdata.p7.actor.Response
+import com.aura.bigdata.p7.akka.Request
 
 class TeacherActor extends Actor with ActorLogging {
     override def receive = {

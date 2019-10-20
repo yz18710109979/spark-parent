@@ -1,7 +1,7 @@
 package com.aura.bigdata.p7.akka.first
 
 import akka.actor.{ActorRef, ActorSystem, Props}
-import com.desheng.bigdata.p7.akka.Request
+import com.aura.bigdata.p7.akka.Request
 
 object StudentActorApp {
     def main(args: Array[String]): Unit = {

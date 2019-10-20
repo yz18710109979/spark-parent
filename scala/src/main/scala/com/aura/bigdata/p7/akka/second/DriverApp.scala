@@ -1,7 +1,7 @@
 package com.aura.bigdata.p7.akka.second
 
 import akka.actor.{ActorSystem, Props}
-import com.desheng.bigdata.p7.akka.Signal
+import com.aura.bigdata.p7.akka.Signal
 
 object DriverApp {
     def main(args: Array[String]): Unit = {

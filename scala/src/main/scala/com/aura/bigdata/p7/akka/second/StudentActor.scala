@@ -1,7 +1,8 @@
 package com.aura.bigdata.p7.akka.second
 
 import akka.actor.{Actor, ActorLogging, ActorRef}
-import com.desheng.bigdata.p7.akka.{Request, Response, Signal}
+import com.aura.bigdata.p7.actor.Response
+import com.aura.bigdata.p7.akka.{Request, Signal}
 
 class StudentActor(teacherActorRef: ActorRef) extends Actor with ActorLogging {
     override def receive = {
